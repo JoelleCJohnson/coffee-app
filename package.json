@@ -2,6 +2,11 @@
   "name": "coffee-app",
   "version": "0.1.0",
   "private": true,
+  "description": "This is a React app fretching coffees from SampleApis",
+  "repository": {
+    "url":"https://github.com/JoelleCJohnson/coffee-app.git"
+  },
+  "author": { "name": "Joelle Johnson", "email": "joellej221@gmail.com"},
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -15,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prod": "npm run build && firebase deploy"
   },
   "eslintConfig": {
     "extends": [

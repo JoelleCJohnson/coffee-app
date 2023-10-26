@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <header>
-            <h1>Zen Coffee</h1>
+            <h1>Joelle's Coffee</h1>
         </header>
     );
 }
