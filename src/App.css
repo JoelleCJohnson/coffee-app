@@ -35,13 +35,40 @@ h1 {
   color: #2c2100;
 }
 
-main {
+main{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-grow: 1;
+  margin-top: 1em;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
   flex-wrap: wrap;
   padding: 1em;
-  
+  width: 100%;
+}
+
+button {
+  padding: 8px 24px;
+  font-size: 1.4em;
+  margin: 4px;
+}
+
+.coffee-card {
+  width: 300px;
+  background-color: #ffffff20;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 8px;
+}
+
+.coffee-card > img {
+  width: 100%;
 }
 
 footer {
